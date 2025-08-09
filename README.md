@@ -3,7 +3,6 @@
 A modern, responsive, and interactive **credit card input form** built with **Vue.js**.  
 This project provides a visually appealing and dynamic interface for entering credit card details with real-time validation, card type detection, and animated card flipping.
 
-![Credit Card Form Preview](assets/preview.png) <!-- Optionally add demo image -->
 
 ---
 
