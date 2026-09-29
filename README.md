@@ -1,16 +1,18 @@
 <div align="center">
 
-# ðŸ’³ Interactive Credit Card Form
+# Interactive Credit Card Form
 
 ### Vue.js 2 credit-card interface with real-time updates and animated interactions
 
 A learning and portfolio adaptation demonstrating reactive frontend behaviour with **Vue.js 2, JavaScript, HTML and CSS**.
 
+**Live Demo:** https://ombirrda63.github.io/dynamic-card-input/
+
 </div>
 
 ---
 
-## âœ¨ Features
+## Features
 
 - Live card-number rendering
 - Dynamic card-type detection
@@ -20,9 +22,11 @@ A learning and portfolio adaptation demonstrating reactive frontend behaviour wi
 - CVV card-flip interaction
 - Randomized card backgrounds
 - Responsive layout
-- Relative asset paths suitable for static hosting
+- Static hosting and GitHub Pages support
 
-## ðŸ›  Tech Stack
+---
+
+## Tech Stack
 
 ![Vue.js](https://img.shields.io/badge/Vue.js-2.x-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
@@ -31,37 +35,65 @@ A learning and portfolio adaptation demonstrating reactive frontend behaviour wi
 
 This is a **Vue 2 CDN-based application**. It does not use Vue CLI, Vite or npm.
 
-## ðŸ“‚ Project Structure
+---
+
+## Project Structure
 
 ```text
 dynamic-card-input/
-â”œâ”€â”€ assets/
-â”‚   â””â”€â”€ images/
-â”œâ”€â”€ index.html
-â”œâ”€â”€ style.css
-â”œâ”€â”€ script.js
-â”œâ”€â”€ NOTICE.md
-â””â”€â”€ README.md
+|-- assets/
+|   `-- images/
+|-- index.html
+|-- style.css
+|-- script.js
+|-- NOTICE.md
+`-- README.md
 ```
 
-## ðŸš€ Run Locally
+---
+
+## Run Locally
 
 ```powershell
 py -m http.server 5500
 ```
 
-Then open `http://127.0.0.1:5500/`.
+Then open:
 
-## âš ï¸ Demo Only
+```text
+http://127.0.0.1:5500/
+```
 
-This is a frontend UI demonstration. It does not process payments, contact a payment gateway, or store real card information. Do not enter real payment credentials.
+---
 
-## ðŸ™ Attribution
+## Live Demo
 
-This repository is maintained as a **learning/portfolio adaptation**. See [`NOTICE.md`](NOTICE.md).
+https://ombirrda63.github.io/dynamic-card-input/
 
-## ðŸ‘¨â€ðŸ’» Maintained By
+---
+
+## Demo Only
+
+This application is a frontend UI demonstration.
+
+It does not process payments, contact a payment gateway, or store real card information.
+
+Do not enter real payment credentials into demo applications.
+
+---
+
+## Attribution
+
+This repository is maintained as a **learning and portfolio adaptation**.
+
+See [`NOTICE.md`](NOTICE.md) for attribution information.
+
+---
+
+## Maintained By
 
 **OM CHOUDHARY**
+
 Full-Stack Developer & Product Builder
+
 GitHub: [@OMBIRRDA63](https://github.com/OMBIRRDA63)
