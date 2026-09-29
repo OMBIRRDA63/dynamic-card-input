@@ -1,41 +1,67 @@
-# Vue.js Interactive Credit Card Form 💳
+<div align="center">
 
-A modern, responsive, and interactive **credit card input form** built with **Vue.js**.  
-This project provides a visually appealing and dynamic interface for entering credit card details with real-time validation, card type detection, and animated card flipping.
+# ðŸ’³ Interactive Credit Card Form
 
+### Vue.js 2 credit-card interface with real-time updates and animated interactions
 
----
+A learning and portfolio adaptation demonstrating reactive frontend behaviour with **Vue.js 2, JavaScript, HTML and CSS**.
 
-## 🌟 Features
-
-- **Dynamic Card Type Detection**
-  - Automatically recognizes Visa, MasterCard, Amex, Discover, and Troy based on the entered number.
-  
-- **Real-Time Input Masking**
-  - Formats card numbers according to the card type (e.g., AMEX uses `#### ###### #####`).
-
-- **3D Card Flip Animation**
-  - The card flips when entering CVV, showing the back side.
-
-- **Live Updates**
-  - Card number, cardholder name, expiry date, and CVV update instantly as the user types.
-
-- **Responsive Design**
-  - Works smoothly on desktops, tablets, and mobile devices.
-
-- **Clean Aesthetics**
-  - Styled with custom CSS and Google Fonts (`Source Code Pro` & `Source Sans Pro`).
+</div>
 
 ---
 
-## 🛠️ Technologies Used
+## âœ¨ Features
 
-- **[Vue.js](https://vuejs.org/)** — For reactivity and component-based UI.
-- **HTML5** — For semantic markup.
-- **CSS3** — For styling and responsive layouts.
-- **JavaScript (ES6)** — For validation logic and dynamic interactivity.
+- Live card-number rendering
+- Dynamic card-type detection
+- Visa, Mastercard, Amex, Discover and Troy support
+- Input masking with `vue-the-mask`
+- Live card-holder and expiry updates
+- CVV card-flip interaction
+- Randomized card backgrounds
+- Responsive layout
+- Relative asset paths suitable for static hosting
 
----
+## ðŸ›  Tech Stack
 
-## 📂 Project Structure
+![Vue.js](https://img.shields.io/badge/Vue.js-2.x-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 
+This is a **Vue 2 CDN-based application**. It does not use Vue CLI, Vite or npm.
+
+## ðŸ“‚ Project Structure
+
+```text
+dynamic-card-input/
+â”œâ”€â”€ assets/
+â”‚   â””â”€â”€ images/
+â”œâ”€â”€ index.html
+â”œâ”€â”€ style.css
+â”œâ”€â”€ script.js
+â”œâ”€â”€ NOTICE.md
+â””â”€â”€ README.md
+```
+
+## ðŸš€ Run Locally
+
+```powershell
+py -m http.server 5500
+```
+
+Then open `http://127.0.0.1:5500/`.
+
+## âš ï¸ Demo Only
+
+This is a frontend UI demonstration. It does not process payments, contact a payment gateway, or store real card information. Do not enter real payment credentials.
+
+## ðŸ™ Attribution
+
+This repository is maintained as a **learning/portfolio adaptation**. See [`NOTICE.md`](NOTICE.md).
+
+## ðŸ‘¨â€ðŸ’» Maintained By
+
+**OM CHOUDHARY**
+Full-Stack Developer & Product Builder
+GitHub: [@OMBIRRDA63](https://github.com/OMBIRRDA63)
